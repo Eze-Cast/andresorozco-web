@@ -33,7 +33,7 @@ Cada entrada de `PORTADAS` indica `id`, `name`, `base` y `scene`. Los archivos e
 - `scene: 'offroad'`: terracería para los vehículos de aventura.
 - `scene: 'road'`: carretera para los de ciudad.
 
-El coche y el escenario se eligen una vez al cargar el documento. No agregues temporizadores para cambiar imágenes. El historial barajado vive en `sessionStorage` con la clave `ac-hero-cycle-v2`; cada ciclo recorre los diez autos antes de repetir.
+El coche y el escenario se eligen una vez al cargar el documento. No agregues temporizadores para cambiar imágenes. El historial barajado vive en `sessionStorage` con la clave `ao-hero-cycle-v1`; cada ciclo recorre los diez autos antes de repetir.
 
 ## Contacto y redes
 

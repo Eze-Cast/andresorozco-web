@@ -36,11 +36,11 @@ function elegirPortada(active, saved = {}, random = Math.random) {
   if (!image || !active.length) return;
   let saved = {};
   try {
-    saved = JSON.parse(sessionStorage.getItem('ac-hero-cycle-v2') || '{}') || {};
+    saved = JSON.parse(sessionStorage.getItem('ao-hero-cycle-v1') || '{}') || {};
   } catch {}
   const { chosen, state } = elegirPortada(active, saved);
   try {
-    sessionStorage.setItem('ac-hero-cycle-v2', JSON.stringify(state));
+    sessionStorage.setItem('ao-hero-cycle-v1', JSON.stringify(state));
   } catch {}
   const stage = document.querySelector('.editorial-car-stage');
   stage.dataset.scene = chosen.scene;
