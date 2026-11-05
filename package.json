@@ -1,0 +1,14 @@
+{
+  "name": "andres-orozco-seminuevos",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Sitio estático de Andrés Esau Orozco Castro, seminuevos multimarca",
+  "scripts": {
+    "format": "prettier --write \"*.{html,css,js,cjs,json,md}\" \".vscode/*.json\"",
+    "format:check": "prettier --check \"*.{html,css,js,cjs,json,md}\" \".vscode/*.json\"",
+    "check": "node validar-inventario.cjs"
+  },
+  "devDependencies": {
+    "prettier": "3.9.10"
+  }
+}
