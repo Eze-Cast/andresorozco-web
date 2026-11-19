@@ -1,4 +1,4 @@
-// Inventario activo revisado el 18 de noviembre de 2026. Solo unidades disponibles con fotografía.
+// Inventario activo revisado el 19 de noviembre de 2026. Solo disponibles, sin franjas amarillas y con fotografía correspondiente.
 const INVENTARIO = [
   {
     id: 105,
@@ -291,7 +291,7 @@ const INVENTARIO = [
     year: 2024,
     color: 'Blanco',
     km: 1033,
-    price: 730000,
+    price: 699900,
     transmission: 'Manual',
     category: 'Comercial',
     specId: 22,
@@ -373,7 +373,7 @@ const INVENTARIO = [
     year: 2024,
     color: 'Plata Metálico',
     km: 79452,
-    price: 259900,
+    price: 249900,
     transmission: 'Automática',
     category: 'Sedán / Hatchback',
     specId: 25,
@@ -627,7 +627,7 @@ const INVENTARIO = [
     year: 2024,
     color: 'Gris',
     km: 25765,
-    price: 423900,
+    price: 394900,
     transmission: 'Manual',
     category: 'SUV',
     specId: 16,
@@ -1149,7 +1149,7 @@ const INVENTARIO = [
     year: 2023,
     color: 'Gris Oxford',
     km: 72198,
-    price: 275000,
+    price: 262900,
     transmission: 'Automática',
     category: 'Sedán / Hatchback',
     photos: ['assets/autos/nov12/df39766748eee52b.webp'],
@@ -1468,21 +1468,5 @@ const INVENTARIO = [
     photos: ['assets/autos/nov12/97593f6832a7cd1b.webp'],
     thumbnail: 'assets/autos/nov12/97593f6832a7cd1b-thumb.webp',
     albumUrl: 'https://photos.app.goo.gl/9Dgf15Agxfs75Shr5',
-  },
-  {
-    id: 210,
-    name: 'Volkswagen Virtus Trendline 1.6 Tiptronic',
-    brand: 'Volkswagen',
-    model: 'Virtus',
-    version: 'Trendline 1.6 Tiptronic',
-    year: 2024,
-    color: 'Blanco',
-    km: 75859,
-    price: 273000,
-    transmission: 'Automática',
-    category: 'Sedán / Hatchback',
-    photos: ['assets/autos/nov18/ac7f6912edf0207f.webp'],
-    thumbnail: 'assets/autos/nov18/ac7f6912edf0207f-thumb.webp',
-    albumUrl: 'https://photos.app.goo.gl/oZWMrqXiD5JTR4yG6',
   },
 ];
